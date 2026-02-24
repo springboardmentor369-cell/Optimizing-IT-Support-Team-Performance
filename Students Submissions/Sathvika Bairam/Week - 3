@@ -1,0 +1,17 @@
+# Week-3
+* Introduction to EDA
+   - EDA stands for Exploratory data analytics and it is a process of exploring, understanding, and summerizing
+     data before creating dashboards.
+   - EDA helps to find insights, patterns, problems and stories hidden in data.
+   - Without EDA : dashboards become just charts.
+   - With EDA : dashboards answer business questions.
+
+* Factors of EDA :
+   - volume of data
+   - distribution of data
+   - comparison
+   - Relationships
+
+* Framing questions by analysing dataset for dashboards.
+
+# Task : reviews
