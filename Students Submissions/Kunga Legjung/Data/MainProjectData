@@ -1,0 +1,9 @@
+🔐 API & API Key Usage
+
+This project uses a third-party API for data processing.
+API access is authenticated using an API key.
+
+API_KEY=https://mock-api-srm8.onrender.com/api/tickets
+
+
+

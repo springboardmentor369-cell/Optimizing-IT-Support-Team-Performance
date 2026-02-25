@@ -1,0 +1,38 @@
+Internship Week 3 Documentation
+
+Topics Learned  
+• Exploratory Data Analysis (EDA)  
+• Understanding data structure and data values  
+• Distribution of data  
+• Data comparison and relationships  
+• Asking business questions from a stakeholder perspective  
+• Basics of live data import  
+• Project review and presentation skills  
+
+Exploratory Data Analysis (EDA)  
+• Learned how to understand the structure of data  
+• Analyzed data values and data types  
+• Studied data distribution using charts and statistics  
+• Compared different variables  
+• Identified relationships between datasets  
+
+Stakeholder Questioning  
+• Learned how shareholders view data  
+• Practiced framing questions based on business needs  
+• Focused on performance, growth, risk, and insights  
+
+Live Data Import  
+• Learned basic concepts of live data connection  
+• Understood how live data helps in real-time analysis  
+
+Project Review Skills  
+• Learned how to introduce ourselves professionally  
+• Explained project objectives clearly  
+• Described the project process step by step  
+• Presented results and insights confidently  
+
+Summary  
+• Focused on understanding data through EDA  
+• Focused on business-oriented questioning  
+• Focused on live data usage  
+• Focused on improving project review skills  

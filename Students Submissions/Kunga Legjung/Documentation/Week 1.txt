@@ -1,0 +1,21 @@
+Internship Week 1 Documentation
+
+• Basics of Data Visualization  
+  Learned the importance of data visualization and how charts help in understanding patterns, trends, and insights from data.
+
+• Loading Data in Power BI  
+  Learned how to load data into Power BI from sources such as Excel and CSV files.
+
+• Data Transformation in Power BI  
+  Learned how to clean and transform raw data by removing errors, renaming columns, and correcting data types.
+
+• Power Query  
+  Understood the role of Power Query in data cleaning and shaping before analysis.
+
+• Data Preparation Workflow  
+  Learned the step-by-step process of preparing data before creating visualizations.
+
+• Presentation Skills  
+  Learned how to present dashboards and explain insights clearly and confidently.
+
+

@@ -1,0 +1,41 @@
+Internship Week 6 Documentation
+
+DAX (Data Analysis Expressions)  
+• DAX is a formula language used in Power BI.  
+• It is used to calculate values like totals, averages, and percentages.  
+
+DAX Functions  
+• DAX functions are built-in formulas that help perform calculations.  
+• They make data analysis easier and faster.  
+
+Explicit and Implicit Measures  
+• Implicit measures are created automatically when we drag data into visuals.  
+• Explicit measures are created by writing DAX formulas.  
+• Explicit measures can be reused in many visuals.  
+
+Reusable DAX  
+• Reusable DAX means writing a measure once and using it many times.  
+• This saves time and keeps results consistent.  
+
+Measures  
+• A measure is a calculation used in reports and dashboards.  
+• Base measures perform simple calculations.  
+• Composite measures use one or more base measures.  
+
+CALCULATE Function  
+• CALCULATE is used to change how data is filtered.  
+• It helps create advanced calculations based on conditions.  
+
+IF and Logical Functions  
+• IF function checks a condition and returns a result.  
+• It is used to show different values based on rules.  
+
+DAX Basics in Power BI  
+• Learned basic DAX syntax.  
+• Practiced writing simple formulas.  
+• Understood how DAX helps in decision making.  
+
+Summary  
+• Learned DAX in simple and practical way.  
+• Understood how measures and functions work.  
+• Improved ability to create calculations in Power BI.  

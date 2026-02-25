@@ -1,0 +1,30 @@
+Internship Week 8 Documentation
+
+Real-Time Dashboard Creation  
+• Created my own dashboard as a final task  
+• Worked on a real-time project environment  
+
+API Usage  
+• Used API key to connect data source  
+• Learned how API helps fetch data automatically  
+• Understood basic API integration in Power BI  
+
+Dashboard Development Experience  
+• Applied previous learning of data cleaning, modeling, and visualization  
+• Designed dashboard to answer business questions  
+• Practiced arranging visuals for clear communication  
+
+Advantages of API  
+• Real-time data availability  
+• Automatic data updates  
+• Reduced manual data collection  
+
+Learning Outcome  
+• Gained hands-on experience in real-time dashboard development  
+• Improved understanding of API-based data connection  
+• Built confidence in end-to-end dashboard creation  
+
+Summary  
+• Successfully created a real-time dashboard using API  
+• Experienced complete project workflow  
+• Gained practical industry-level exposure  
