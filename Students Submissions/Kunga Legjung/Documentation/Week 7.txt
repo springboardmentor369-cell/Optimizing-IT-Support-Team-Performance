@@ -1,0 +1,31 @@
+Internship Week 7 Documentation
+
+Dashboard as Communication  
+• Learned that dashboards are a way to communicate insights visually  
+• Understood that visuals help users understand data quickly  
+
+Dashboard Planning  
+• Learned how to decide the number of dashboards  
+• Understood that dashboards depend on business questions and objectives  
+
+Visual Interpretation  
+• Learned what information should be shown through visuals  
+• Focused on showing trends, comparisons, and key metrics clearly  
+
+Business Questions for Dashboard  
+• Learned how to ask questions before creating dashboards  
+• Understood that visuals should answer business questions  
+
+Test Score Analysis  
+• Worked with test score data  
+• Analyzed performance and trends using visuals  
+
+Dashboard Flow  
+• Learned step-by-step dashboard creation process  
+• Understood planning → data preparation → visualization → insight flow  
+• Focused on arranging visuals logically for better storytelling  
+
+Summary  
+• Learned dashboards as communication tools  
+• Improved dashboard planning and interpretation skills  
+• Practiced creating dashboards with proper flow and purpose  

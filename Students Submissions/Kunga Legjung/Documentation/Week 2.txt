@@ -1,0 +1,22 @@
+Internship Week 2 Documentation
+
+• Data Cleaning  
+  Learned the importance of data cleaning to improve data quality and accuracy.
+
+• Power Query for Data Cleaning  
+  Used Power Query to clean data by removing null values, duplicates, and unnecessary columns.
+
+• Data Types  
+  Learned different data types such as string, integer, and float, and understood their role in analysis.
+
+• Python Libraries  
+  Learned basic Python libraries used for data analysis.
+
+• Pandas Library  
+  Understood how Pandas is used for handling and analyzing data.
+
+• DataFrame  
+  Learned how data is stored in DataFrame format and how to view and modify it.
+
+• Data Cleaning Process  
+  Learned step-by-step data cleaning process including understanding data, handling missing values, correcting data types, and preparing data for analysis.

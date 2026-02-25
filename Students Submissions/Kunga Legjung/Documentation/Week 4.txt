@@ -1,0 +1,51 @@
+Internship Week 4 Documentation
+
+Topics Learned  
+• Live data import in Power BI  
+• Difference between direct and non-direct data import  
+• JSON data storage and handling in Power BI  
+• Exploration of Zendesk platform  
+• Basics of GitHub and repository management  
+
+Live Data Import  
+• Learned how to connect Power BI with live data sources  
+• Understood Import mode and DirectQuery mode  
+
+Direct vs Non-Direct Data Import  
+• Some data sources support direct connection  
+• Some data requires transformation before loading  
+• Data structure, authentication, and API limits affect data import  
+
+JSON Data Storage in Power BI  
+• JSON data is stored in nested format  
+• Power Query is used to expand and convert JSON into tables  
+
+Zendesk Exploration  
+• Understood Zendesk as a customer support tool  
+• Learned about tickets, users, and interaction data  
+
+GitHub Learning  
+• Learned how to create a repository  
+• Understood which files and folders to store in GitHub  
+
+README Content  
+• Problem statement  
+• Dataset description  
+• KPIs  
+• Dashboard  
+• Key insights  
+• Recommendations  
+• Tools used  
+
+Repository Structure  
+• Data  
+• Data_Cleaning  
+• Documentation  
+• PowerBI  
+• Screenshots  
+
+Summary  
+• Focused on live data handling  
+• Focused on JSON processing  
+• Focused on Zendesk exploration  
+• Focused on proper GitHub documentation  

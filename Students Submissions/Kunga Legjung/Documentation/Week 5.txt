@@ -1,0 +1,32 @@
+Internship Week 5 Documentation
+
+Data Types  
+• Learned different data types such as numerical, categorical, and time series  
+• Understood how identifying data type helps in choosing the correct visualization  
+
+Data Visualization by Data Type  
+• Categorical data is visualized using bar charts and pie charts  
+• Numerical data is visualized using cards and summary metrics  
+• Time series data is visualized using line charts to show trends over time  
+
+Key Performance Indicators (KPI)  
+• Learned the meaning of KPI  
+• Understood that KPIs are used to measure performance and track important business goals  
+
+Primary Key and Foreign Key  
+• Learned what a primary key is and how it uniquely identifies records in a table  
+• Learned what a foreign key is and how it connects two tables  
+
+Data Modeling  
+• Learned the basics of data modeling in Power BI  
+• Understood how tables are connected for better analysis  
+
+Types of Relationships  
+• One-to-Many relationship where one record links to multiple records  
+• Many-to-One relationship where multiple records link to one record  
+• Many-to-Many relationship where multiple records link to multiple records  
+
+Summary  
+• Focused on understanding data types and their visuals  
+• Learned KPI basics for performance measurement  
+• Understood keys and relationships for data modeling  
