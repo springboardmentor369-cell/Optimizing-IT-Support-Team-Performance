@@ -1,0 +1,26 @@
+Power BI Dashboards
+
+Dashboard 1: IT Support Performance Overview
+Purpose: High-level view for management.
+
+Includes:
+- KPI cards (Total, Open, Pending, Solved, Avg Resolution Time)
+- Monthly ticket trend
+- Ticket distribution by priority and status
+- Tickets by category
+- Tickets by country
+- Ticket status distribution
+
+Dashboard 2: IT Support Operational Analysis
+Purpose: Action-focused dashboard for support managers.
+
+Includes:
+- SLA breach ticket count
+- High & urgent open ticket count
+- High & urgent tickets by category
+- SLA breach tickets by category
+- Average resolution time by priority
+- High & urgent tickets by country
+- Interactive slicers (Country, Month, Priority, Category)
+
+Live Dashboard: ITsupport_InfosysSpringboard.pbix
