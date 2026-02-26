@@ -1,0 +1,79 @@
+Learnings (Week 6)
+
+This week focused on understanding DAX (Data Analysis Expressions) in Power BI and how measures are created for dynamic calculations.
+
+What is DAX?
+- DAX (Data Analysis Expressions) is a formula language used in Power BI for:
+- Creating measures
+- Creating calculated columns
+- Building calculated tables
+- Performing advanced aggregations
+- DAX allows dynamic calculations based on filters and user interaction.
+
+
+What is a Measure?
+- A measure is a calculation performed on data that:
+- Returns a single scalar value
+- Is evaluated dynamically based on filters
+- Is used mainly in visuals
+Example: Total Tickets = COUNTROWS('Fact_Ticket')
+
+
+Important Notes About Measures
+- A measure is a scalar value (returns one result at a time).
+- Measures are not visible in Data/Table view — only in Report view.
+- Measures are calculated at query time (dynamic).
+- Tables must be properly connected for measures to work correctly.
+- Measures offer greater flexibility and formatting control compared to static columns.
+
+Sigma (Σ) Symbol
+- The Σ (Sigma) symbol represents numeric/measurable fields.
+- These fields can be aggregated (SUM, COUNT, AVERAGE, etc.).
+
+Implicit vs Explicit Measures
+- Implicit Measures: Automatically created when you drag a numeric column into a visual.
+Example: SUM(Sales) - These are basic and limited in control.
+
+- Explicit Measures: Created manually using DAX. Offer better control, flexibility, and reusability.
+Example: Total Revenue = SUM(Sales[Amount]) - Explicit measures are preferred in professional dashboards.
+
+
+Types of Measures
+- Base Measure: A measure created directly from a column.
+- Composite Measure: A measure built using other measures. It promotes modular and reusable design.
+
+
+CALCULATE Function: It is one of the most powerful DAX functions.
+Purpose:
+- Modifies filter context
+- Applies multiple filters to a calculation
+Example:
+High Priority Tickets =
+CALCULATE(
+    COUNTROWS('Fact_Ticket'),
+    'Fact_Ticket'[Priority] = "High"
+)
+This calculates ticket count only for high-priority tickets.
+
+Slicer: A Slicer is a visual filter in Power BI that allows users to:
+- Filter data interactively
+- Change report context dynamically
+- Slicers directly affect how measures are calculated and displayed.
+
+Types of slicers:
+- Dropdown
+- List
+- Date range
+- Between filter
+- Relative date filter
+
+
+* Key Takeaways from Week 6
+- Understood the purpose and structure of DAX
+- Learned how to create dynamic measures
+- Differentiated between implicit and explicit measures
+- Understood base and composite measures
+- Learned how CALCULATE() modifies filter context
+- Recognised the importance of slicers in interactive dashboards
+- Calculate Function: It allows applying multiple filters on the same measure.
+- Slicer: It is used to filter data in a visual. It also consists of multiple types.

@@ -1,0 +1,89 @@
+Learnings (Week 4)
+
+Importing Live Data into Power BI
+This week focused on connecting Power BI to live or web-based data sources.
+
+Getting Data from the Web
+- Power BI allows importing data directly from web URLs. However, not all websites allow direct data extraction due to constraints such as:
+- Authentication or login requirements
+- API-based JSON responses
+- Firewall or security protection
+- Unstructured HTML content
+- Rate limits or restricted access
+- This highlighted the importance of understanding how modern web systems manage data access.
+
+Zendesk as a Data Source
+- Explored using Zendesk as a potential live ticketing data source.
+- What is Zendesk? A CRM and customer support management platform
+- Used for ticket management and customer interaction tracking
+- Provides API endpoints for data extraction
+
+
+Accessing Zendesk Data in Power BI:
+1. Use Get Data → Web
+2. Paste API endpoint link
+3. Choose authentication type: Basic authentication
+4. Username → Registered email ID
+5. Password → API Key
+
+However:
+- Manually entering large volumes of ticket data in Zendesk is inefficient and time-consuming.
+- Therefore, for academic/demo purposes, structured datasets are more practical.
+
+Real-Time Data & ETL Pipelines
+- For dynamic or continuously changing datasets, we discussed the concept of: ETL Pipeline (Extract → Transform → Load)
+- Automated data updates
+- Clean and structured data flow
+- Reduced manual effort
+- Scalability
+- ETL pipelines are essential in enterprise-level analytics environments.
+
+
+
+Project Structuring on GitHub
+1. Repository Setup use Project name
+2. Keep the repository public (for portfolio visibility)
+3. Recommended Folder Structure
+- Data Cleaning: Jupyter notebooks, Python scripts
+- Data: Raw data, Processed data
+- Power BI: .pbix file
+- Screenshots: Data table view, Report view, Data model view
+- Documentation: Weekly learnings, Project explanation
+4. README File – The Star of the Project
+- The README is the most important part of a GitHub repository.
+- It should clearly communicate:
+*Problem Statement: 
+- What business problem is being solved? 
+- Why is it important?
+*Dataset Description: 
+- What data is being used? 
+- Source of the data
+- Number of rows and columns
+- How the dataset supports dashboard creation and business questions
+*KPI Metrics
+- Define key and optimal KPIs
+- Explain why they were selected
+- Connect KPIs to business objectives
+*Dashboard Explanation
+- What does the page represent?
+- Why were specific visuals chosen?
+- What insights can stakeholders gain?
+*Key Insights
+- Major findings from the analysis
+- Patterns and performance gaps identified
+*Recommendations
+- Actionable business suggestions
+- Operational improvements
+- Strategy-level decisions
+*Tools Used
+- List all tools with an explanation
+- Where it was used in the workflow
+
+
+* Key Takeaways from Week 4
+- Learned how to connect Power BI to web-based data sources.
+- Understood API authentication and data access limitations.
+- Gained exposure to CRM systems like Zendesk.
+- Understood the importance of ETL pipelines for live data.
+ -Learned professional GitHub structuring practices.
+- Understood that the README defines the quality of the project.

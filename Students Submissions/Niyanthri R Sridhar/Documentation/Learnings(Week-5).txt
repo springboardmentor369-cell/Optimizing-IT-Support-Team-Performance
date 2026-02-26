@@ -1,0 +1,101 @@
+Learnings (Week 5)
+
+This week focused on understanding data modelling, relationships between tables, and foundational data warehouse concepts used in analytics and Power BI.
+
+Data Modelling – Relationships Between Tables
+- Understanding relationships is crucial for building accurate dashboards and avoiding incorrect aggregations.
+1. Many-to-Many (*:*): Multiple records in both tables relate to multiple records in the other table.
+Example:
+Students and Courses
+A student can enroll in multiple courses
+A course can have multiple students
+
+2. Many-to-One (*:1): Many records in one table relate to a single record in another table.
+Example:
+Employees → Department
+Many employees belong to one department
+
+3. One-to-Many (1:*): One record in a table relates to multiple records in another table.
+Example:
+Customer → Orders
+One customer can place many orders
+
+4. One-to-One (1:1): One record in a table relates to exactly one record in another table.
+Example:
+Person → Passport
+One person has one passport
+
+
+Types of Data
+- Understanding data types helps in selecting correct visualizations and statistical methods.
+1. Numerical Data
+- Represents measurable quantities
+- Can be continuous or discrete
+- Used for aggregation (sum, average, count).
+Examples: Age, Salary, Revenue
+
+2. Categorical Data
+- Represents labels or groups
+- Cannot be mathematically calculated
+- Used for grouping and filtering.
+Examples: Gender, Country, Ticket Status
+
+3. Time Series Data
+- Data collected over time intervals
+- Used for: trend analysis, forecasting, seasonality detection
+Examples: Monthly Sales, Daily Tickets
+
+
+Primary Key & Foreign Key
+Essential for relational database design and Power BI modelling.
+Primary Key (PK): A column that uniquely identifies each record in a table.
+- Must be unique
+- Cannot be NULL
+- Only one primary key per table
+Example: Customer_ID in the Customer table
+
+Foreign Key (FK): A column that creates a relationship between two tables by referencing a primary key.
+- Can contain duplicate values
+- Can be NULL (depending on business logic)
+- Links to a primary key in another table
+Example: Customer_ID in Orders table → references Customer table
+
+KPI (Key Performance Indicator): A measurable value used to evaluate how effectively a business or process is achieving its objectives.
+(KPIs convert raw data into business performance indicators.)
+Examples: Average Resolution Time, Revenue Growth
+
+
+Fact and Dimension Tables
+Fact Table
+- Stores measurable, quantitative data
+- Contains numeric values
+- Includes foreign keys to dimension tables
+Examples: Sales Amount, Ticket Resolution Time
+Fact tables answer: “What happened?” and “How much?”
+
+Dimension Table
+- Stores descriptive or contextual information
+- Used for filtering and grouping
+Examples: Customer details, Product category
+Dimension tables answer: “By whom?” “Where?” “When?” “What category?”
+
+
+Star Schema: 
+- One central fact table
+- Multiple dimension tables
+- All dimensions connect directly to the fact table
+- The layout resembles a star
+
+Advantages of star schema:
+- Simple structure
+- Easy to understand
+- Efficient for reporting and analytics
+- Ideal for Power BI modelling
+
+
+* Key Takeaways from Week 5
+- Understood different types of table relationships.
+- Learned the importance of primary and foreign keys.
+- Gained clarity on fact vs dimension tables.
+- Learned how a star schema improves analytics performance.
+- Strengthened foundational data warehousing knowledge.

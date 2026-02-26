@@ -1,0 +1,73 @@
+Learnings (Week 3)
+
+Introduction to Exploratory Data Analysis (EDA)
+Week 3 focused on understanding and applying Exploratory Data Analysis (EDA).
+
+EDA is the process of analysing datasets to:
+- Summarise key characteristics
+- Detect patterns
+- Identify anomalies
+- Discover relationships
+- Support business decision-making
+- It bridges raw data and meaningful insights.
+
+An example 4-Step Framework for Data Analysis
+- Step 1: Transform and Clean the Data
+Before analysis, it is critical to understand the structure and quality of the dataset.
+Key questions to ask:
+1. What is the volume of data?
+2. How many rows and columns are present?
+3. What are the data types and categories?
+4. Where is the data sourced from?
+5. Is the dataset structured or unstructured?
+6. Are there missing or inconsistent values?
+Goal: Understand the dataset fully before concluding.
+
+- Step 2: Identify and Handle Outliers
+Outliers can distort analysis and visualisations.
+Tasks include:
+1. Detecting extreme values
+2. Deciding whether to remove, cap, or investigate them
+3. Understanding if the outlier represents an error or a real phenomenon
+Important: Outliers should not be removed blindly — business context matters.
+
+- Step 3: Compare the Data
+Comparison helps identify performance differences.
+Comparative analysis reveals trends and performance gaps.
+
+- Step 4: Identify Relationships
+Understanding relationships between variables helps uncover deeper insights.
+Examples:
+1. Does content type influence subscriber retention?
+2. Does geography affect content production?
+This step moves analysis from descriptive to analytical thinking.
+
+
+Case Study: Netflix Data Analysis
+1. Is the platform more focused on TV Shows or Movies?
+Business Insight: TV Shows encourage long-term retention.
+
+2. Where is the content produced? Which international markets are being targeted?
+Goal: Identify growth beyond the US. Understand the global penetration strategy. Analyse emerging markets.
+
+3. How soon is content reaching the platform after release?
+Key Insight: Faster streaming releases may align with evolving consumer behaviour.
+
+4. What are the most common genres? Do they align with high-growth countries?
+This helps evaluate: Market demand alignment and cultural adaptation strategy.
+
+5. Does the content align with the target audience?
+Example: If the company promotes a “Family Plan,” Is there sufficient family-oriented content?
+
+
+Dashboard Strategy
+Dashboard 1: Content Portfolio & Market Growth
+Dashboard 2: Content Type & Audience Alignment
+
+
+* Key Takeaways from Week 3
+- Developed a structured EDA framework.
+- Learned to link data analysis with business strategy.
+- Understood the importance of comparing categories.
+- Applied data insights to real-world strategic questions.
+- Designed dashboards with purpose, not just visuals.

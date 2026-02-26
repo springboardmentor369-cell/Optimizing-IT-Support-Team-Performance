@@ -1,0 +1,62 @@
+Learnings (Week 7)
+
+This week focused on shifting from technical execution to analytical thinking and business storytelling.
+
+Before building dashboards or writing DAX, it is important to ask:
+1. What is the purpose of this analysis?
+2. Who is the audience?
+3. What business problem are we solving?
+4. What decisions will be made from this dashboard?
+
+Key reminder:
+- A dashboard without purpose is just decoration.
+- Technical readiness also matters:
+- Be comfortable with Python and data cleaning
+- Understand DAX measures
+- Be clear on all previous concepts (data modelling, KPIs, relationships)
+
+
+Explaining Technical Insights to Non-Technical Stakeholders
+- A good data analyst makes complex data simple to understand.
+- For stakeholders who do not understand technical terms:
+1. Focus on business impact
+2. Explain trends using real-world language
+3. Connect numbers to outcomes
+
+
+Evaluating a Visual
+- Is it clearly interpreting the data?
+- Is the insight immediately visible?
+- Is it cluttered or clean?
+- Are colours consistent?
+- Is it visually appealing?
+
+Key principles:
+- Use consistent colour schemes
+- Avoid unnecessary visual elements
+- Ensure readability
+- Highlight important metrics
+- Good visualization = clarity + simplicity + consistency.
+
+
+Planning Dashboards Strategically
+- How many dashboards are required?
+- What key question does each dashboard answer?
+- How are they logically connected?
+- Dashboards should flow like a story.
+
+
+Basic Dashboard Layout Structure
+- Start with a Clear Title
+- KPI Cards (Top Section)
+- Comparison Visuals
+- Distribution Visuals
+- Time Series Visual
+
+
+* Key Takeaways from Week 7
+- Learned to think beyond tools and focus on business purpose
+- Understood importance of communication with non-technical stakeholders
+- Improved ability to critique and design effective visuals
+- Learned to structure dashboards strategically
+- Recognized that analytics is storytelling with data

@@ -1,0 +1,21 @@
+List of DAX
+
+Days Open = DATEDIFF(Dim_Date[Date Created], TODAY(), DAY)
+
+Active Backlog = CALCULATE( [Total Tickets], Fact_Tickets[Status] IN {"open", "pending"})
+
+Average Resolution Time = AVERAGE(Fact_Tickets[Resolution Time])
+
+Critical Unresolved = CALCULATE([Active Backlog], Fact_Tickets[Priority] IN {"urgent", "high"})
+
+SLA Target = 5
+
+SLA Variance = [Average Resolution Time] - 5
+
+Solved Rate % = DIVIDE([Solved Tickets], [Total Tickets], 0)
+
+Solved Tickets =  CALCULATE([Total Tickets], Fact_Tickets[Status] = "solved”)
+
+Total Tickets = COUNTROWS('Fact_Tickets')
+
+Ticket Age = IF(Fact_Tickets[Resolution Time] <= 2, "0-2 Days", IF(Fact_Tickets[Resolution Time] <= 5, "3-5 Days", "5+ Days"))

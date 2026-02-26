@@ -1,0 +1,70 @@
+Learnings (Week 1)
+
+Project Introduction: Week 1 began with an overview of the Support Analytics project, which analyses IT ticketing data to evaluate service performance and operational efficiency.
+
+We discussed the complete analytics pipeline:
+Collect Data → Clean Data → Transform Data → Visualize & Analyze
+
+This helped establish a structured workflow for approaching real-world analytics problems.
+
+Data Analytics Workflow
+Data Collection: The task assigned was to collect IT ticketing data for analysis.
+While data can be extracted directly from databases using SQL, in this case we worked with structured formats such as:
+- CSV files
+- Excel files
+- SQL exports
+
+Database: A database is an organised collection of structured data stored for management, retrieval, updating, and control.
+
+
+Data Cleaning & Transformation
+- Data preparation was performed using:
+1. Python (Pandas) → For cleaning, preprocessing, and transforming the data
+2. Power Query (Power BI) → For data shaping and transformation within dashboards
+
+Key activities included:
+- Removing irrelevant columns
+- Handling missing values
+- Extracting only required features
+- Structuring data for analysis
+
+We learned that:
+- Cleaning and transformation are crucial before visualization.
+- Only relevant and meaningful data should be retained for effective analysis.
+
+Data Visualisation - done using Power BI.
+
+Important distinctions learned:
+Reports → Static representation of data
+Dashboards → Dynamic and interactive
+For time-based data (like ticket trends),
+A line chart is commonly used to visualise time series patterns.
+
+Framing the Analysis
+- A major learning this week was understanding how to frame analytics work properly.
+- Before building a dashboard, we must:
+1. Understand the dataset thoroughly
+2. Identify the business questions being answered
+3. Define the problem statement
+4. Determine what insights stakeholders need
+
+We also learned that dashboards can contain multiple pages, each serving a purpose:
+Page 1 → Explain the dataset
+Page 2 → Define the problem and need for analysis
+Page 3 → Present solutions and insights through visuals
+
+Note: The goal is not just visualisation, but building an optimal dashboard tailored to the company’s operational needs.
+
+
+Final Presentation Requirements
+1. Proper documentation of the project
+2. Uploading all relevant files to GitHub
+3. Ensuring dashboards are interactive and user-friendly
+
+
+* Key Takeaways from Week 1
+- Understood the complete data analytics lifecycle.
+- Learned the importance of data cleaning before visualisation.
+- Recognised the difference between static reports and interactive dashboards.
+- Developed clarity on how to frame business questions.
+- Understood how dashboards must align with company objectives.
