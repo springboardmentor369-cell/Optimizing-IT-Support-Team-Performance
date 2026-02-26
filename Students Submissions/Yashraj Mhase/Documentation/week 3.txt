@@ -1,0 +1,17 @@
+Week 3 – Exploratory Data Analysis (EDA)
+🔹 Overview
+In the third week, we were introduced to Exploratory Data Analysis (EDA) and its role in understanding data before building dashboards. We learned that EDA helps uncover patterns, trends, anomalies, and insights, ensuring dashboards answer meaningful business questions rather than just displaying charts.
+
+🔹 Key Concepts Covered
+Understanding data volume and structure
+Analyzing data distribution
+Performing comparisons across categories
+Identifying relationships between variables
+
+🔹 Business Focus
+Framing relevant business questions by analyzing datasets prior to visualization
+Understanding how EDA drives insight-driven dashboard design
+
+✅ Task Completed
+Conducted dataset reviews and framed analytical questions using EDA techniques
+

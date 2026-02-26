@@ -1,0 +1,28 @@
+Week 1 – Project Introduction & Power BI Basics
+🔹 Overview
+Self introduction and project overview
+Understanding how customers raise tickets when transactions or balance fetching becomes inconvenient
+
+🔹 Power BI Introduction
+Ribbon
+Power Query
+Report View
+Table View
+Model View
+
+🔹 Data Collection
+Extracting datasets from different online sources
+
+🔹 Data Cleaning using Power Query
+Removing duplicate records
+Handling missing values (filling remaining nulls using aggregation where data availability is high)
+Removing unnecessary columns
+Rearranging columns
+Replacing values
+Removing white spaces using Trim
+Removing special characters using Replace Values
+Splitting columns using Delimiter
+
+✅ Task Completed
+Extracted and cleaned datasets using Power BI Power Query
+

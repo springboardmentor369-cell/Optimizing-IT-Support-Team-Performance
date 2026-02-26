@@ -1,0 +1,20 @@
+Week 2 – Data Preprocessing Using Python
+🔹 Overview
+In the second week, we reviewed the cleaned dataset and set up the VS Code environment. We learned how project files and folders are organized and how to work with Jupyter Notebook (.ipynb) files. We were introduced to Pandas and DataFrames for handling and preprocessing tabular data in Python.
+
+🔹 Tools & Concepts Learned
+DataFrame: A structured table of rows and columns used for data storage, cleaning, and analysis
+Pandas Library: Used to load and manipulate datasets such as CSV and Excel files in Python
+
+🔹 Data Cleaning & Transformation Steps
+Loaded dataset using Pandas
+Removed duplicate records
+Trimmed whitespaces and removed special characters from text fields
+Replaced categorical values with standardized formats (Yes/No → Y/N)
+Filtered out unnecessary rows (e.g., Do Not Contact customers)
+Dropped irrelevant and unnamed columns
+Handled missing values and removed rows with empty critical fields
+
+✅ Task Completed
+Performed data preprocessing on the Customer Call List dataset using Python and Pandas
+

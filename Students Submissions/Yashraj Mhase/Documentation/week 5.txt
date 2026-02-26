@@ -1,0 +1,36 @@
+Week 5 – Data Types, Data Modeling & Relationships
+🔹 Overview
+In the fifth week, we focused on understanding types of data and their importance in analytics. We learned how data types influence chart selection and visualization logic in Power BI.
+
+🔹 Types of Data & Visualization
+Categorical data
+Numerical data
+Time-series data
+Selection of appropriate charts:
+Bar charts (horizontal and vertical) for categorical data
+Pie charts for limited categorical values (5–6 categories, 100% total)
+Line charts for time-series data
+
+🔹 Power BI Views
+Table View
+Model View – understanding relationships between tables
+Report View
+
+🔹 Data Modeling Concepts
+Primary Key – unique identifier
+Foreign Key – references primary key across tables
+Fact Tables – contain measurable metrics
+Dimension Tables – contain descriptive attributes
+Establishing relationships using common columns
+
+🔹 Relationships & Schema
+Relationship types: one-to-one, one-to-many, many-to-one, many-to-many
+Schema types: Star Schema and Snowflake Schema
+Explored data modeling in Power BI Model View
+
+✅ Task Completed
+Identified primary and foreign keys in fact and dimension tables
+
+Understood the use of composite primary keys in fact tables
+
+
