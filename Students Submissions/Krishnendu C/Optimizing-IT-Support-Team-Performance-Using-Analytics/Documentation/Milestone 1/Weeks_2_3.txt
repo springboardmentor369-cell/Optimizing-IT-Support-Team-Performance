@@ -1,0 +1,23 @@
+WEEK 1-2
+learnt to
+  • Remove insignificant columns
+  • Check datatype
+  • Remove null rows
+  • Remove/replace null values (using replace values) to unknown 
+  • For numerical features, leave the null values as such 
+  • Single column with so much data can be split into several rows with split column and delimiter
+  • Standardize the data (convert all the data to a similar format or standardized format)
+all using Power BI
+
+Then we started cleaning Netflix dataset using powerbi and then using python where we learnt how to 
+  • Create dataframe object
+  • Read and load data
+  • Drop columns & duplicates
+  • Strip or replace whitespaces and special characters
+  • Drop rows with specific conditions
+
+Later on we started to work on EDA which is essential to build a dashboard. There we learnt on how to 
+  • Explore the structure and volume of data like number of categories and source
+  • Identify the distribution of data including outliers
+  • How to do comparison  
+  • Understand the relationships.

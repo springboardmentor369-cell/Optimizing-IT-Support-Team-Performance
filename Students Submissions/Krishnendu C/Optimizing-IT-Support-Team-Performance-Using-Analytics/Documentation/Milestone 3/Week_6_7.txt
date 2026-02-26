@@ -1,0 +1,45 @@
+WEEK 6
+
+DAX - DATA ANALYSIS EXPRESSION
+
+  * Measure - a scalar value
+  * Sigma sign - shows they are measurable values
+
+  * Discussed why daxx measure over built in fns
+    • reusable
+    • formattable
+
+  * Difference b/w excel and PowerBI
+    • Excel - static data
+    • PowerBI - dynamic data
+
+  * Implicit and Explicit fns in PowerBI
+    • Implicit functions - in built functions
+    • Explicit functions - the ones that we write
+
+  ! * SPECIAL TIP :  USE MEASURES INSTEAD OF BUILT IN FUNCTIONS * !
+
+  * Understanding some terms:
+    • Revenue (the  money a company makes) = total profit + total cost
+    • Profit - the money the company gains = Revenue - cost
+
+  * Measure:
+    • Measure is not a part of the table
+    • To open measures - open square bracket 
+    • We cannot directly do operations on a measure and a column from a table
+    
+    • Base Measure and Composite Measure
+      ~ Base measure - measure created from the column of a table
+      ~ Composite measure -measure created using basic measure 
+
+  * Calculate measure:
+    • to create multiple filters over  the  measure 
+    • Syntax for calculate function:
+      ~ Name = calculate (expression, filter)
+      ~ Use columns in filter (not measures)
+      ~ Expression - measure on which we have to perform the condition
+
+  * Slicer 
+    • to select only some part of data / to filter out data
+    • Why calculate fn over slicer
+      ~ Slicer function cannot override calculate 

@@ -1,0 +1,53 @@
+WEEK 3
+
+We learnt about the relevance of live data import,ETL and documentation. Setup our GitHub Repo.
+
+LIVE DATA IMPORT :
+  - is relevant and important since the companies/businesses need to analyse the consequences of their business ideas / decisions.
+  - We can't get live data of a company without an organizational access. So we'll have to use CRM services to 
+    * synthesize or 
+    * use dummy data 
+  and create an API end point.
+
+ETL Pipeline :
+  - Pipeline : flow of work
+  - ETL : Extract,transform and load
+
+Revision :
+    • data cleaning - powerbi, python
+    • EDA - understand the questions 
+    • import live data
+        • public url - directly import using web
+          • organizational access
+            • API key - endpoint using key to access
+            • ETL pipelines - workflow,smooth & consistent, automated
+
+WEEK 4
+
+• KPI - key performance indicator - it indicates the performance of certain relevant parameter.
+• Types of data: numerical, categorical, time based.
+• Relevance of data type depends on the project.
+
+• To compare 2 categorical data we use bar chart.
+• To understand the proportions of each divisions of category we use pie chart
+     - Max 5-6 categories for pie chart (easy to interpret)
+     - sum of all the proportions = 100
+     - avoid precise calculation (it rounds up the %)
+
+• Cards - quick glimpse of numerical value.
+        - Most of the cards in dashboard are KPI
+
+• Time based - values vary over time 
+             - Line chart for visualization
+
+• Model view - primary key & foreign key, star schema
+• While working with multiple tables
+      - Relationship between tables- 1° key and foreign key
+      - Related tables can be connected
+      - Fact table is connected to dimension tables
+      - Dimension tables contain in-depth details
+      - Relationships 
+            * Many to one(* to 1)
+            * One to many
+            * One to one
+            * Many to many
