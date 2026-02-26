@@ -55,18 +55,27 @@ The objective of this project is to analyze IT support ticket data to identify k
 
 **5️⃣ Dashboard Details**
 ───────────────────────────────────────────────────────────────────────────────────────── 
-To be updated
-<br>
+📊 Dashboard 1 – Executive Overview
+Provides a high-level summary of IT support tickets, highlighting total volume, downtime distribution, regional contribution, customer sentiment, and product areas causing maximum operational impact.
+
 <br>
 
+📊 Dashboard 2 – Operational Performance
+Focuses on operational efficiency by analyzing active tickets, downtime trends, runbook coverage, ticket volume by day and role, and customer impact across product areas.
+
+<br>
+
+📊 Dashboard 3 – Risk & Impact Analysis
+Analyzes business risks by identifying security incidents, payment impact, data loss cases, high-risk industries, and key contributors using decomposition analysis for informed decision-making.
 
 
 **6️⃣ Key Insights**
 ───────────────────────────────────────────────────────────────────────────────────────── 
-To be updated
-<br>
-<br>
-
+- Ticket volume is highest in the Small industry category, indicating higher operational instability or limited support compared to larger organizations.
+- High-priority tickets are taking more time to resolve, which shows delays in issue handling even though they are marked as urgent.
+- Authentication and Notification product areas cause the most downtime and affect more customers, so these areas need immediate performance improvement.
+- Many tickets do not have runbooks, which leads to longer resolution time and shows a lack of proper operational documentation.
+- Security, payment, and data-loss incidents are fewer, but they have a high business impact, especially for enterprise customers, and need strong preventive measures.
 
 **7️⃣ Tools and Technology Used**
 ─────────────────────────────────────────────────────────────────────────────────────────
@@ -80,6 +89,6 @@ To be updated
 
 **8️⃣ Conclusion**
 ─────────────────────────────────────────────────────────────────────────────────────────
-To be updated
+The analysis highlights the need to strengthen IT support processes for small industry clients by improving system stability and support . High-priority tickets require faster escalation and stricter enforcement. Critical product areas such as Authentication and Notifications should be prioritized for performance optimization. Creating and maintaining runbooks can significantly reduce resolution time. Finally, proactive controls and monitoring are essential to mitigate high-impact security, payment, and data-loss incidents.
 <br>
 
