@@ -1,0 +1,63 @@
+Learnings (Week 2)
+
+Understanding the Difference: Python vs Power BI
+This week focused on understanding when and why to use Python versus Power BI in analytics workflows.
+
+Power BI
+- Primarily used for visualisation and dashboard creation
+- Easy to use and business-friendly
+- Suitable for quick analysis
+- Not ideal for real-time or automated processing
+- Limited reusability outside the dashboard environment
+
+Python
+- More flexible and powerful for data processing
+- Enables building reusable ETL pipelines (Extract → Transform → Load)
+- Supports automation
+- Better suited for large-scale data manipulation
+- Ideal for preprocessing before visualization
+
+Key Learning: Power BI is excellent for presenting insights, while Python is stronger for backend processing, automation, and scalable data workflows.
+
+
+Data Assumptions
+- In most real-world cases, assumptions about data should be avoided.
+- Only in rare situations, where domain logic justifies it, can controlled assumptions be made.
+- Any assumption must be documented clearly.
+- This ensures data integrity and analytical reliability.
+
+Data Type Importance: A critical concept learned was the importance of correct data types.
+Example: 
+- Phone numbers must be stored as text, not integers.
+- If stored as integers, leading zeros (e.g., "0123456789") will be removed.
+- This highlights why proper schema understanding is important before cleaning.
+
+
+Cleaning Environment
+Data cleaning was performed in VS Code using the Jupyter Notebook extension, allowing:
+- Step-by-step execution
+- Easy debugging
+- Clear visibility of intermediate outputs
+- This approach improves traceability and reproducibility.
+
+
+Key Definitions Learned
+- Libraries: Pre-written collections of functions and modules that help perform common tasks efficiently.
+Example: Pandas, NumPy.
+- DataFrame: A tabular data structure (rows and columns) with labeled axes, commonly used in Pandas for data manipulation.
+- Index: The row labels of a DataFrame. By default, range from 0 to n-1
+- NaN: Represents missing or empty values in numerical columns.
+- N/A: Represents null or unavailable values (often categorical).
+- drop_duplicates(): Removes duplicate rows from a dataset.
+- drop(columns=[]): Removes unwanted columns from a dataset.
+- strip(): Removes leading/trailing spaces or unwanted characters from text values.
+- Standardisation: Ensuring consistent formatting in categorical variables.
+Example: Convert all variations of: Y/Yes/yes/y into a single standardised value like "Yes".
+
+
+*Key Takeaways from Week 2
+- Understood the complementary roles of Python and Power BI.
+- Learned why data types must be handled carefully.
+- Improved practical data cleaning skills.
+- Strengthened understanding of missing values and standardisation.
+- Recognised the importance of reusable and automated workflows.
