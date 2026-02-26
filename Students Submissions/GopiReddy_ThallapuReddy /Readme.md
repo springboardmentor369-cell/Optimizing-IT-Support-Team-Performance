@@ -1,89 +1,131 @@
-# Optimizing-IT-Support-Team-Performance-Using-Analytics
+ThallapuReddy Gopi Reddy
 
-# Problem Statement
-The aim of this project is to optimize IT support team performance using data analytics
-# Problem Statement Description
-Modern IT support teams handle large volumes of service requests with varying priorities, service-level agreements (SLAs), and customer expectations. Without systematic analysis, inefficiencies such as delayed ticket resolution, uneven workload distribution, frequent SLA breaches, and declining customer satisfaction often go unnoticed.
-This project focuses on optimizing IT support team performance using analytics by transforming raw ticket data into actionable insights. Through Python-based data cleaning and preprocessing and Power BI–driven visualization, the analysis evaluates key performance indicators such as resolution time, SLA compliance, agent productivity, ticket backlog, and customer satisfaction.
-The objective is to enable data-driven decision-making that helps IT managers improve operational efficiency, balance workloads, reduce resolution delays, and enhance overall service quality. The outcome is an interactive dashboard and insight-backed recommendations that support continuous performance improvement within IT support operations.
+🎓 Basic Information
 
-# Dataset (Metadata)
-Dataset: IT support ticket dataset
+     College: DVR & DR.HS MIC College of Technology
+     Branch:Computer Science Engineering
+     Year: 4th
+     Batch: 2022-2026
+🔗 GitHub Profile https://github.com/GopiReddy351
 
-Source: kaggle
+# Power BI Project:
+   Project Name : Optimizing IT Support Team Performance Using Analytics
+ 
+   Description: Design an intelligent performance command center for IT support that shifts the team from reactive ticket handling to predictive service
+   optimization.This project transforms raw helpdesk data into actionable insights that reduce resolution time, prevent incidents, and maximize agent productivity.
 
-Scale: Approximately 8,000+ records with multiple attributes
+  Repository Link: https://github.com/GopiReddy351/-Optimizing-IT-Support-Team-Performance-Using-Analytics
 
-Dataset Description:It contains recordsof  IT support service desk tickets generated from a simulated organizational support system. It captures operational and performance-related attributes used to evaluate service efficiency and agent productivity.
+   Live Dashboard :https://drive.google.com/file/d/1Gd4WF-2WUcyN1aqOj1vIrX3vw-k1DrJc/view?usp=sharing
+   
+ # Project Detailed description:
+ 
+  # 1.Business Problem:
+     IT support teams often struggle with
+     High ticket backlog
+     SLA breaches
+     Uneven workload distribution
+     Repeated incidents
+     Low visibility into performance drivers
+     Traditional reporting shows what happened. This solution reveals why it happened and what to fix next.
+     
+  # 2.Objective:
+   
+     Build a Power BI analytics dashboard that: Tracks operational KPIs in real time Identifies bottlenecks in resolution workflow Predicts SLA risk
+     Optimizes workload distribution Detects recurring root causes Recommends improvement opportunities
 
-Key fields Description:
+  # 3. Data Sources:
 
-Ticket ID – Unique identifier for each support request
+     Example datasets: Ticket ID Created Date / Resolved Date Priority Level Category (Network, Software, Hardware, IAM, etc.) Assigned Engineer
+     SLA Status Resolution Time Reopened Flag Customer Satisfaction Score Escalation Level Data can be imported from: Kaggle export Excel / CSV files
 
-Priority – Severity level of the issue (High, Medium, Low)
+  # 4. Key KPIs:
+    
+    Average Resolution Time First Response Time SLA Compliance % Ticket Volume by Category Reopen Rate Escalation Rate Agent Productivity
+    Index Customer Satisfaction Score Backlog Trend
 
-Issue Category – Type of problem reported (e.g., Software, Hardware, Network)
+  # 5. Dashboard Pages:
+     
+    1️ Executive Overview Total Tickets (Open, Closed, Pending) SLA Compliance Gauge Resolution Time Trend High-Risk Ticket Indicator
 
-Assigned Agent – Support staff responsible for ticket resolution
+    2️ Agent Performance Analytics Tickets per Engineer Avg Resolution Time by Agent Escalation Count Workload Distribution Heatmap Performance Ranking
 
-Created Date – Timestamp when the ticket was raised
+    3️ Root Cause Intelligence Top Recurring Issues Category-based SLA Breach Analysis Reopened Tickets by Issue Type Incident Clustering
 
-Resolved Date – Timestamp when the ticket was closed
+    4️ Predictive & Optimization Insights SLA Breach Risk Prediction Peak Volume Forecast Resource Allocation Suggestions Ticket Aging Analysis
 
-Resolution Time (Hours) – Total time taken to resolve the ticket
+  # 6. Advanced Power BI Features:
 
-Status – Current ticket state (Open, In Progress, Resolved)
+       DAX for SLA calculations Dynamic KPI cards Drill-through analysis Decomposition Tree for root cause analysis Forecasting using built-in analytics What-if            parameters for staffing simulation
 
-Customer Satisfaction Score – User feedback rating after resolution
+  # 7. Business Impact:
+    
+       20–35% faster resolution times Reduced SLA violations Balanced workload across agents Improved customer satisfaction Data-driven workforce planning
 
-# KPI's - Keep Performance Indicators
-1.Total Tickets KPI:It Represents the Total Nuber of Tickets Recorded in the dataset.
+  # 8. Innovation Angle:
+    
+       Reimagine IT support as a data-driven performance engine, not a ticket queue. AI-driven anomaly detection Predictive staffing model Automated weekly                 performance reports Gamified leaderboard for engineers Early warning SLA alert dashboard
 
-2.AVG Priority KPI :It Represents the Average of the priority score assigned to each ticket.
+   Repository Link: https://github.com/GopiReddy351/-Optimizing-IT-Support-Team-Performance-Using-Analytics
+      
+# Skills
+   Power BI
+   
+   Python etc
 
-3.AVG Downtime KPI :It Represents the Number of Minutes customers Experienced service downtime per customer satisfaction.
+# Internship / Experience :
+   During this Internship, I have learned From this Internsip adout what Kind of work can be done by a Data Analytics.
+   
+   How data can be Analysed in Different ways.
 
-4.Payment Impact Tickets:It Represents the Transaction Issues and It helps to Track the revenue-risk Incidents.
+   The Intersection of IT operations and data intelligences-transforming raw service desk data into strategic decision power.
 
-5.AVG Error Rate:It Represents the percentage of Tickets associated with application errors and helps to system reliability.
+# Role & Responsibility
+   Collected and cleaned IT ticket data from service platforms.
+   
+   Designed a relational data model in Power BI.
+   
+   Built advanced DAX measures for SLA tracking and performance metrics.
+   
+   Created executive dashboards for real-time monitoring.
+   
+   Identified bottlenecks in ticket resolution workflows.
+   
+   Delivered data-driven recommendations to improve efficiency.
+   
+   You didn’t just build reports — you built operational clarity.
+   
+# What I Delivered
+   End-to-end Power BI performance dashboard
+   
+   SLA Compliance tracking system
+   
+   Agent productivity benchmarking model
+   
+   Ticket aging & backlog monitoring system
+   
+   Root cause analysis using decomposition tree
+   
+   Forecasting model for ticket volume trends
 
-6.Security Incident: It Represents the percentage of tickets related to security incidents, it's high risk and requires monitoring.
+# Key Learnings
+   Translating business pain points into analytical KPIs
+   
+   Designing scalable data models
+   
+   Advanced DAX calculations (Time Intelligence, SLA logic)
+   
+   Performance optimization techniques in Power BI
+   
+   Stakeholder communication using visual storytelling
+   
+   Turning reactive IT support into proactive intelligence
 
-# Key Insights
-High-Priority tickets consume 40% More Resolution time.
-
-20% of agents Resoleve 55% of total tickes
-
-SLA breaches spike during peak hours
-
-Low CSAT corelates strongly with delayed resolution.
-
-# Recommendations
-Intoduce intelligent ticket routing based on agent expertise.
-
-Balance workload using predictive volume analysis.
-
-Implement SLA(Service Level Agreement) alerts for high-priority tickets.
-
-Provide target training for low-performing agents.
-
-# Tools used
-1)VsCode:
-Data Handling:Python(Numpy,Pandas)
-
-Jupyter Notebook with:
-Data loading,
-Cleaning logic,
-Feature engineering,
-Pythone script for reusable pipline
-
-2)Visualization:PowerBI
-
-3)Documentation:Github Reposistory
-
-# Conclusion
-This project uses Python and Power BI to turn raw IT support ticket data into actionable insights. By analyzing KPIs such as resolution time, SLA compliance, and agent performance, the solution enables data-driven improvements in efficiency, workload balance, and service quality. The end result is an interactive dashboard that supports smarter operational decisions and continuous performance optimization.
-
-
-
-
+# Impact Created
+   Improved SLA compliance visibility
+   
+   Reduced resolution bottlenecks
+   
+   Balanced workload distribution across engineers
+   
+   Enabled leadership to make faster, data-driven decisions
